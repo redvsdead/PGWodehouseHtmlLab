@@ -1,0 +1,183 @@
+* {
+	color: #CC99FF;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	background-color: #330033;
+}
+
+article {
+	margin-top: 10px;
+ 	background-color: #660099;
+	color: #330033;
+	font-family: sans-serif;
+    	padding: 2px;
+}
+
+p {
+	text-align: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 7px;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+   	color: #CC99FF;
+	font-weight:bold;
+	font-size: 64px;
+	text-align: right;
+	margin-right: 40px;
+}
+
+h2 {
+	margin-left: 20px;
+    	color: #CC99FF;
+	font-weight:bold;
+	font-size: 28px;
+}
+
+h3 {
+	font-style:italic;
+	font-weight:bold;
+}
+
+pre {
+	margin-left: 20px;
+	line-height: 2em;
+	font-size: 20px;
+	font-family: sans-serif;
+}
+
+ul {
+	font-size: 16px;
+	padding: 0;
+	margin-top: 10px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+
+a:link, a:visited {
+	color: ##CC99FF;
+	text-decoration: none;
+   }
+
+a:hover {
+	color: ##CC99FF;
+	text-decoration: underline;
+}
+
+a.top:link, a.top:visited  {
+	font-style: italic;
+	color: #663399;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.content {
+	margin-top: 150px;
+}
+
+.menu {
+    	background:#330033;
+	color: #CC99FF;
+	font-weight:bold;
+	font-size: 18px;
+	text-align: center;
+}
+
+.menu ul li {
+	padding: 10px;
+}
+
+.menu ul li, .menu ul {
+	display: inline-block;
+}
+
+.menu ul {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.menu ul ul {
+	display: none;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: -10px;
+	text-align: left;
+}
+
+.menu ul a {
+	text-decoration: none;
+}
+
+.menu ul ul a {
+	text-decoration: none;
+}
+
+.menu li:hover a {
+	text-decoration: underline;
+}
+
+.menu li:hover li a {
+	text-decoration: none;
+}
+
+.menu li li:hover a {
+	text-decoration: underline;
+}
+
+.menu li:hover ul {
+	display: block;
+}
+
+.menu li:hover li {
+	display: block;
+}
+
+.cur_link {
+	color: #330033;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-top: 2px solid #ffcccc; 
+	border-bottom: 2px solid #ffcccc;
+}
+
+.translated {
+	font-size: 16px;
+	margin-left: 10px;
+	font-family: sans-serif;
+	font-style: italic;
+}
+
+.mainimg {
+	float: left;
+	margin-left: 20px;
+	position:absolute;
+	top: 20px;
+}
+
+.copyright {
+	color: #663399;
+	font-style: italic;
+	font-size: 16px;
+	text-align: left;
+	background-color: #330033;
+	margin-top: 60px;
+}
+
+.beginning a {
+	text-aling: right;
+	margin-left: 790px;
+	font-size: 14px;
+}
+
+.inputtxt {
+	color: #663366;
+}

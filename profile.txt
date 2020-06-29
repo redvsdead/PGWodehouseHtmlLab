@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="keywords" content="вудхаус, стихи, стихотворения, литература">
+<meta http-equiv="description" content="Пародийные стихотворения П.&nbsp;Г.&nbsp;Вудхауса">
+<title>П. Г. Вудхаус</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<article>
+    <section><a href="index.html"><img class="mainimg" src="img/logo.jpg" width="320" height="180" alt="Логотип" title="П.&nbsp;Г.&nbsp;Вудхаус"></a><h1>П.&nbsp;Г.&nbsp;Вудхаус</h1></section>
+</article>
+<article>
+    	<nav class="menu">
+	<ul>
+	<li><a href="#">&equiv;&nbsp;Стихи</a>
+	<ul class="dropdown">
+	<li><a href="clever.html">Как глупо быть умной</a></li>
+	<li><a href="typo.html">Опечатка</a></li>
+	<li><a href="parrot.html">Попугай</a></li>
+	</ul>
+	</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	<li>Анкета</li>
+<li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+	<li><a href="links.html">Ссылки</a></li>
+	</ul>
+	</nav>
+</article>
+<article class="content">
+	<p>
+	Вы можете вступить в&nbsp;клуб любителей П.&nbsp;Вудхауса, заполнив анкету ниже.
+	</p>
+	<fieldset name="FIO">
+<legend>Личная информация</legend>
+<p>Имя:</p>
+<input class="inputtxt" type="text" name="FirstName">
+<p>Фамилия:</p>
+<input class="inputtxt" type="text" name="LastName">
+<p>Пол</p>
+<input class="inputtxt" type="radio" name="choiceradio" value="female">
+<label for="female">женский</label>
+<input type="radio" name="choiceradio" value="male">
+<label for="male">не женский</label>
+<p>Любимое произведение (серия произведений) Вудхауса</p>
+<input class="inputtxt" type="text" name="comment">
+	</fieldset>
+<p>&nbsp;</p>
+	<fieldset name="Other">
+<legend>О&nbsp;работе сайта</legend>
+<p>Как вы оцениваете наш сайт?</p>
+    <select class="inputtxt" name = "choice">
+      <option value = "10">Отличный сайт!
+      <option value = "11">Прекрасный сайт!
+      <option value = "100">Невероятный сайт!
+      <option selected value = "1000">Лучший сайт в моей жизни!
+    </select>
+	</fieldset>
+<p>&nbsp;</p>
+    <input class="inputtxt" name="Reset" type = "reset" value = "Очистить">&nbsp;&nbsp;&nbsp;&nbsp;
+    <input class="inputtxt" name="Submit" type = "submit" value = "Отправить">
+</article>
+<footer><a href="mailto:sadorozhanskaya@gmail.com"><p class="copyright">&copy;&nbsp;С.&nbsp;Дорожанская, 2019</p></a></footer>
+</body>
+</html>
